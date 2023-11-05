@@ -4,8 +4,11 @@ In this project, I created a sales report using excel pivot tables which will en
 I have learned the following:
 
 1.Pivot table
+
 2.Power Query
+
 3.DAX (Basics)
+
 4.Conditional Formatting
 5.Report Beautification
 6.Sales Domain Metrics
