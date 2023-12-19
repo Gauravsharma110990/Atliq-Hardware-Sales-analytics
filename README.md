@@ -1,4 +1,5 @@
 **Excel-Sales_Finance_Analytics**
+
 Atliq Hardwares is a company which sells hardware items such as PC, Laptop, Mouse, Printers and many more to different customers. They manufacture and sell hardware items through different channels mentioned below:
 
 Retailers (brick-and-mortar customers like Croma and Best Buy and e-commerce customers like Amazon and Flipkart).
