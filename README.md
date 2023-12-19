@@ -1,23 +1,73 @@
-# Atliq-Hardware-Sales-analytics
-In this project, I created a sales report using excel pivot tables which will enable businesses to determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries. The reports generated will provide actionable insights and recommendations for businesses to optimize their sales strategies, enhance customer satisfaction, and maximize revenue generation.
+SQL_Project_Finance_Analytics_and_Report_Generation
+Project Overview
+This project is centered around Finance Analytics and Report Generation, focusing on delivering efficient and tailored reporting solutions to facilitate crucial decision-making. The implementation involves SQL, incorporating stored procedures, user-defined functions, and query optimization for a streamlined process.
 
-I have learned the following:
+Key Features
+**Tailored Reports: ** Generate customized reports using input parameters like in_fiscal_year, in_top_n, and customer_code.
 
-1.Pivot table
+**Key Metrics: ** Extract insightful metrics such as forecast accuracy, market badge, monthly gross sales for customers, and more.
 
-2.Power Query
+**User-Friendly Design: ** Prioritizing readability and simplicity in complex queries for easy comprehension.
 
-3.DAX (Basics)
+Project Structure
+|-- /reports
 
-4.Conditional Formatting
+|   |-- forecast_accuracy_by_fiscal_year.csv  
 
-5.Report Beautification
+|   |-- monthly_gross_sales_by_customer.csv
 
-6.Sales Domain Metrics
+|   |-- top_n_customer_by_netsales.csv
 
-Overall, this project aims to empower businesses with the necessary tools and insights to monitor, evaluate, and enhance their sales activities. By leveraging sales data analysis, businesses can unlock new opportunities, drive growth, and stay competitive in the dynamic market landscape.
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+|   |-- top_n_markets_by_netsales.csv
+
+|   |-- top_n_markets_by_region_and_gross_sales.csv
+
+|   |-- top_n_products_by_netsales.csv
+
+|   |-- top_n_products_per_division_qty_sold.csv
+|-- /user_defined_functions
+
+|   |-- get_fiscal_year.txt
+
+|   |-- get_fiscal_quarter.txt
+
+|
+|-- /views
+
+|   |-- gross_sales_view.txt
+
+|   |-- net_sales_view.txt
+
+|   |-- sales_postinv_discount_view.txt
+
+|   |-- sales_preinv_discount_view.txt
+
+|
+|-- /stored procedures
+
+|   |-- get_forecast_accuracy_sp.txt
+
+|   |-- get_market_badge_sp.txt
+
+|   |-- get_monthly_gross_sales_for_customer_sp.txt
+
+|   |-- get_top_n_customer_by_net_sales_sp.txt
+
+|   |-- get_top_n_markets_by_net_sales_sp.txt
+
+|   |-- get_top_n_products_per_division_by_qty_sold_sp.txt
+
+|   |-- top_n_markets_by_gross_sales_and_fiscal_year_sp.txt
+
+|   |-- top_n_products_by_netsales_sp.txt
+
+|
+|-- /Other Queries
+
+|   |-- Queries Utilizing Window Functions, CTEs
+Usage
+**1. Report Generation: **
+
+Navigate to the queries directory and execute the relevant SQL files to generate reports. Customize input parameters such as in_fiscal_year, in_top_n, and customer_code as needed.
+
+**2. Report Viewing: ** Access the generated reports from the report’s directory in CSV format.
