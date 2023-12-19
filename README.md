@@ -1,76 +1,52 @@
-SQL_Project_Finance_Analytics_and_Report_Generation
-Project Overview
-This project is centered around Finance Analytics and Report Generation, focusing on delivering efficient and tailored reporting solutions to facilitate crucial decision-making. The implementation involves SQL, incorporating stored procedures, user-defined functions, and query optimization for a streamlined process.
+**Excel-Sales_Finance_Analytics**
+Atliq Hardwares is a company which sells hardware items such as PC, Laptop, Mouse, Printers and many more to different customers. They manufacture and sell hardware items through different channels mentioned below:
 
-Key Features
-**Tailored Reports: ** Generate customized reports using input parameters like in_fiscal_year, in_top_n, and customer_code.
+Retailers (brick-and-mortar customers like Croma and Best Buy and e-commerce customers like Amazon and Flipkart).
 
-**Key Metrics: ** Extract insightful metrics such as forecast accuracy, market badge, monthly gross sales for customers, and more.
+Direct (Company's own store like Atliq e-store and Atliq Exclusive).
 
-**User-Friendly Design: ** Prioritizing readability and simplicity in complex queries for easy comprehension.
+Distributor (In China and South Korea, sales to be done through distributor like Neptune due to govenment regulations).
 
-Project Structure
-|-- /reports
-```
+These customers in-turn sell the hardwares to end-consumer.
 
-|   |-- forecast_accuracy_by_fiscal_year.csv  
+**PROBLEM STATEMENT :**
+Create an Excel-based Sales and Finance Analytics Report to derive informed decisions.
 
-|   |-- monthly_gross_sales_by_customer.csv
+**Sales Report :**
+Project objective:
 
-|   |-- top_n_customer_by_netsales.csv
+1. Create a _customer performance report
 
-|   |-- top_n_markets_by_netsales.csv
+2. Conduct a comprehensive comparison between market performance and sales targets
 
-|   |-- top_n_markets_by_region_and_gross_sales.csv
+Purpose of sales analytics: Empower businesses to monitor and evaluate their sales activities and performance.
 
-|   |-- top_n_products_by_netsales.csv
+Importance of analyzing sales data: Identify sales patterns and track key performance indicators (KPIs).
 
-|   |-- top_n_products_per_division_qty_sold.csv
-```
-|-- /user_defined_functions
-```
-|   |-- get_fiscal_year.txt
+Role of reports: Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
 
-|   |-- get_fiscal_quarter.txt
-```
-|
-|-- /views
-```
-|   |-- gross_sales_view.txt
+**Finance Report :**
+Project objective:
 
-|   |-- net_sales_view.txt
+1. Create Profit and Loss (P&L) reports by Fiscal Year & Months
 
-|   |-- sales_postinv_discount_view.txt
+2. Create Profit and Loss (P&L) reports by Markets
 
-|   |-- sales_preinv_discount_view.txt
-```
-|
-|-- /stored procedures
-```
-|   |-- get_forecast_accuracy_sp.txt
+Purpose of sales analytics: Evaluation of financial performance, support decision-making, and facilitate communication with stakeholders.
 
-|   |-- get_market_badge_sp.txt
+Importance of analyzing Finance data: Aid in benchmarking against industry peers and previous periods Foundation for budgeting and forecasting.
 
-|   |-- get_monthly_gross_sales_for_customer_sp.txt
+Role of reports: Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
 
-|   |-- get_top_n_customer_by_net_sales_sp.txt
-
-|   |-- get_top_n_markets_by_net_sales_sp.txt
-
-|   |-- get_top_n_products_per_division_by_qty_sold_sp.txt
-
-|   |-- top_n_markets_by_gross_sales_and_fiscal_year_sp.txt
-
-|   |-- top_n_products_by_netsales_sp.txt
-```
-|
-|-- /Other Queries
-```
-|   |-- Queries Utilizing Window Functions, CTEs
-```
-**Usage**
-**1. Report Generation: **
-
-Navigate to the queries directory and execute the relevant SQL files to generate reports. Customize input parameters such as in_fiscal_year, in_top_n, and customer_code as needed.
-
-**2. Report Viewing: ** Access the generated reports from the report’s directory in CSV format.
+**Technical & Soft Skills:**
+ Proficiency in ETL methodology (Extract, Transform, Load).
+ Skills to generate a date table using Power Query.
+ Ability to derive fiscal months and quarters.
+ Establishing data model relationships with Power Pivot.
+ Proficiency in incorporating supplementary data into an existing data model.
+ Utilizing DAX to create calculated columns.
+**Soft Skills:**
+ Refined understanding of Sales & Finance Reports
+ Designing user-centric reports with empathy in mind.
+ Optimization of report generation through meticulous fine-tuning.
+ Developing a systematic approach to devising a report building plan.
