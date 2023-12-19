@@ -28,14 +28,14 @@ Project Structure
 |   |-- top_n_products_per_division_qty_sold.csv
 ```
 |-- /user_defined_functions
-
+```
 |   |-- get_fiscal_year.txt
 
 |   |-- get_fiscal_quarter.txt
-
+```
 |
 |-- /views
-
+```
 |   |-- gross_sales_view.txt
 
 |   |-- net_sales_view.txt
@@ -43,10 +43,10 @@ Project Structure
 |   |-- sales_postinv_discount_view.txt
 
 |   |-- sales_preinv_discount_view.txt
-
+```
 |
 |-- /stored procedures
-
+```
 |   |-- get_forecast_accuracy_sp.txt
 
 |   |-- get_market_badge_sp.txt
@@ -62,12 +62,13 @@ Project Structure
 |   |-- top_n_markets_by_gross_sales_and_fiscal_year_sp.txt
 
 |   |-- top_n_products_by_netsales_sp.txt
-
+```
 |
 |-- /Other Queries
-
+```
 |   |-- Queries Utilizing Window Functions, CTEs
-Usage
+```
+**Usage**
 **1. Report Generation: **
 
 Navigate to the queries directory and execute the relevant SQL files to generate reports. Customize input parameters such as in_fiscal_year, in_top_n, and customer_code as needed.
