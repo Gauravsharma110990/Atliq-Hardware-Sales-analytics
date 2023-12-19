@@ -11,6 +11,7 @@ Key Features
 
 Project Structure
 |-- /reports
+```
 
 |   |-- forecast_accuracy_by_fiscal_year.csv  
 
@@ -25,6 +26,7 @@ Project Structure
 |   |-- top_n_products_by_netsales.csv
 
 |   |-- top_n_products_per_division_qty_sold.csv
+```
 |-- /user_defined_functions
 
 |   |-- get_fiscal_year.txt
