@@ -1,4 +1,4 @@
-**Excel-Sales_Finance_Analytics**
+#**Excel-Sales_Finance_Analytics**
 
 Atliq Hardwares is a company which sells hardware items such as PC, Laptop, Mouse, Printers and many more to different customers. They manufacture and sell hardware items through different channels mentioned below:
 
@@ -10,10 +10,10 @@ Distributor (In China and South Korea, sales to be done through distributor like
 
 These customers in-turn sell the hardwares to end-consumer.
 
-**PROBLEM STATEMENT :**
+##**PROBLEM STATEMENT :**
 Create an Excel-based Sales and Finance Analytics Report to derive informed decisions.
 
-**Sales Report :**
+###**Sales Report :**
 Project objective:
 
 1. Create a _customer performance report
@@ -26,7 +26,7 @@ Importance of analyzing sales data: Identify sales patterns and track key perfor
 
 Role of reports: Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
 
-**Finance Report :**
+###**Finance Report :**
 Project objective:
 
 1. Create Profit and Loss (P&L) reports by Fiscal Year & Months
@@ -39,7 +39,7 @@ Importance of analyzing Finance data: Aid in benchmarking against industry peers
 
 Role of reports: Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
 
-**Technical & Soft Skills:**
+#**Technical & Soft Skills:**
  Proficiency in ETL methodology (Extract, Transform, Load).
  Skills to generate a date table using Power Query.
  Ability to derive fiscal months and quarters.
@@ -48,7 +48,7 @@ Role of reports: Align financial planning with strategic goals Instill confidenc
  Utilizing DAX to create calculated columns.
 
  
-**Soft Skills:**
+#**Soft Skills:**
  Refined understanding of Sales & Finance Reports
  Designing user-centric reports with empathy in mind.
  Optimization of report generation through meticulous fine-tuning.
