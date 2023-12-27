@@ -52,6 +52,6 @@ Role of reports: Align financial planning with strategic goals Instill confidenc
 #**Soft Skills:**
  
 - [ ] Refined understanding of Sales & Finance Reports
-- [ ]Designing user-centric reports with empathy in mind.
-- [ ]Optimization of report generation through meticulous fine-tuning.
+- [ ] Designing user-centric reports with empathy in mind.
+- [ ] Optimization of report generation through meticulous fine-tuning.
 - [ ] Developing a systematic approach to devising a report building plan.
